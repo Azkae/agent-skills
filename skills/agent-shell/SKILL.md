@@ -12,7 +12,7 @@ Spawn a new agent-shell when the user asks to. The new agent runs inside Emacs v
 
 ### 1. Determine the parameters
 
-- **Prompt**: What task should the new agent work on? Use the user's request, or ask if unclear.
+- **Prompt**: What task should the new agent work on? Ask user if unclear.
 - **Name**: A short, kebab-case worktree name based on the task (e.g., `refactor-auth`, `fix-login-bug`, `add-dark-mode`).
 - **Agent**: Which agent to use (e.g., `claude`, `codex`, `opencode`). Use the same agent as the one currently running this skill, unless the user specifies otherwise.
 
