@@ -4,9 +4,9 @@ Skills for Emacs agent integration, compatible with Claude Code, Codex, and othe
 
 ## Skills
 
-### /create-new-agent
+### /agent-shell
 
-Spawn a new agent in Emacs (an "eagent") when the user asks to. Creates an isolated git worktree for the new agent, runs any repository setup, and launches the agent in Emacs via `emacsclient`.
+Spawn a new agent in Emacs (an "agent-shell") when the user asks to. Creates an isolated git worktree for the new agent, runs any repository setup, and launches the agent in Emacs via `emacsclient`.
 
 - **Worktree isolation**: Each new agent works in its own git worktree under `.agent-shell/worktrees/` on a dedicated `agent/<name>` branch.
 - **Automatic setup**: Detects and runs repository setup (npm, pip, cargo, bundle, make, etc.) inside the new worktree.
