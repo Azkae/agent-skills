@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "agent-skills",
+  "version": "1.0.0",
+  "description": "Skills for Emacs agent integration, including spawning new agents (eagents) in isolated git worktrees",
+  "author": {
+    "name": "Romain Ouabdelkader"
+  },
+  "license": "MIT",
+  "keywords": ["emacs", "agent-shell", "eagent", "worktree", "skills"]
+}
