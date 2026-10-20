@@ -1,6 +1,6 @@
 # agent-skills
 
-Skills for Emacs agent integration, compatible with Claude Code, Codex, and other [Agent Plugins](https://agent-plugins.org) clients.
+Skills for Emacs agent integration, compatible with Claude Code, Codex, OpenCode, and other [Agent Plugins](https://agent-plugins.org) clients.
 
 ## Skills
 
@@ -27,7 +27,7 @@ Run the install script to symlink skills into `~/.claude/skills` and `~/.agents/
 ./install.sh
 ```
 
-This makes the skills available globally to Claude Code and Codex (and other Agent Skills-compatible clients).
+This makes the skills available globally to Claude Code, Codex, OpenCode, and other Agent Skills-compatible clients.
 
 ## Structure
 
